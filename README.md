@@ -1,3 +1,9 @@
+# Quno Fork of grunt-i18next-conv
+
+This is needed because [grunt-i18next-conv](https://github.com/aaronlecompte/grunt-i18next-conv) somehow does not extract some keys properly since it relies on the outdated `i18next-conv@0.1.8`.
+
+Since we use this lib for a few private projects, that rely on newer versions of `i18next-conv` the version was locked to `^2.6.1`
+
 # grunt-i18next-conv
 
 > Use i18next-conv to convert translation files.
